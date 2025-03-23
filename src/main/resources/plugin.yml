@@ -1,0 +1,4 @@
+name: OpenProfileViewer
+version: '1.0'
+main: net.civicraft.openProfileViewer.OpenProfileViewer
+api-version: '1.21'
