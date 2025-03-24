@@ -1,0 +1,11 @@
+# Token for the discord bot
+# Obtained from https://discord.com/developers/applications
+# Watch a tutorial here: https://www.youtube.com/watch?v=gRhUL8zBc5w
+discord-token: ""
+
+# Channel IDs in which the bot can respond in. Leave empty for no restrictions!
+# Watch tutorial for how to get channel IDs: https://www.youtube.com/watch?v=tJVtH05IGsU
+allowed-channels:
+  -
+# Available themes: solid, city
+theme: ""
