@@ -1,11 +1,26 @@
-# Token for the discord bot
-# Obtained from https://discord.com/developers/applications
-# Watch a tutorial here: https://www.youtube.com/watch?v=gRhUL8zBc5w
-discord-token: ""
+discord:
+  # Token for the discord bot
+  # Obtained from https://discord.com/developers/applications
+  # Watch a tutorial here: https://www.youtube.com/watch?v=gRhUL8zBc5w
+  token: ""
+  # Channel IDs in which the bot can respond in. Leave empty for no restrictions (the bot can be used anywhere it has permissions)!
+  # Watch tutorial for how to get channel IDs: https://www.youtube.com/watch?v=tJVtH05IGsU
+  allowed-channels:
+  - ""
+  # Current activity. OPTIONS: PLaying, Competing, Streaming, Watching, Listening
+  # Set to NONE for no activity at all.
+  activity: "Playing"
+  # Set the message with the activity. 128-character limit!
+  # Set to NONE for no activity message at all.
+  activity-message: ""
+  # The bot's status. OPTIONS: Online, Idle, Offline, Invisible, Do Not Disturb
+  # You cannot set this one to NONE. If you don't set one or set it incorrectly, it will always default to Online.
+  status: ""
 
-# Channel IDs in which the bot can respond in. Leave empty for no restrictions!
-# Watch tutorial for how to get channel IDs: https://www.youtube.com/watch?v=tJVtH05IGsU
-allowed-channels:
-  -
-# Available themes: solid, city
-theme: ""
+# Background
+# Solid requires a hex-code for the background color to use.
+# Image requires an image for the background. There are default ones included, but you are welcome to upload custom ones!
+background:
+  type: "Image" #OPTIONS: Solid, Image
+  color: "#8FCA5C" #Add a hex color code here.
+  image: "" #Image name and extension. If you upload "custom.png" then that's what you put!
